@@ -1,0 +1,17 @@
+{
+  "name": "tienda-bs",
+  "version": "1.0.0",
+  "description": "Tienda de Juegos",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:css"
+  },
+  "keywords": [
+    "sass"
+  ],
+  "author": "Joaquin Aquino",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.2"
+  }
+}

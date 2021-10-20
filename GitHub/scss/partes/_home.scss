@@ -1,0 +1,114 @@
+.accordion button {
+  font-size: 1.7rem;
+}
+
+.accordion div {
+  font-size: 1.3rem;
+}
+
+@mixin nav {
+  background-color: $color-primario;
+  padding: 10px;
+}
+
+nav {
+  @include nav;
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      a {
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: $size-primario / 1.6;
+      }
+    }
+  }
+}
+
+#presentarPagina {
+  height: 25rem;
+  padding: 5rem;
+  background-image: linear-gradient(
+      to left,
+      rgba(0, 0, 0, 0.856) 25%,
+      rgba(70, 68, 68, 0)
+    ),
+    url(../imagenes/Presentacion.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: right;
+  color: white;
+  font-weight: 600;
+  line-height: 1.3em;
+
+  h1 {
+    animation-duration: 2s;
+    animation-name: aparecer;
+
+    span {
+      color: $color-secundario;
+    }
+  }
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+    transform: translateX(80px);
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+section {
+  margin-bottom: 15px;
+
+  h2 {
+    padding-left: 10px;
+    border-bottom: 2px solid #c0bfbf85;
+    margin-bottom: 10px;
+    color: $color-secundario;
+    font-size: $size-primario;
+    line-height: 2;
+    font-weight: 700;
+  }
+}
+
+.card img {
+  background-size: cover;
+  width: 100%;
+}
+
+#mediosPago {
+  border: 0px solid;
+  tr {
+    th {
+      text-align: center;
+      padding: 12px;
+      background-image: linear-gradient(to bottom right, #d95252, #730707);
+      border: 0px solid;
+      font-size: $size-primario - 1;
+      color: aliceblue;
+    }
+
+    td {
+      text-align: center;
+      padding: 10px;
+      border: 0px solid;
+      font-size: $size-primario - 1.2;
+      background-image: linear-gradient(
+        to bottom right,
+        rgb(214, 210, 210),
+        white
+      );
+    }
+  }
+}

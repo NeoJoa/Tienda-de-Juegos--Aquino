@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-------------------------------SEO----------------------------------->
+    <!--------Descripcion del Sitio----------->
+    <meta
+      name="description"
+      content="GAMESTORE, es una tienda virtual, donde puedes conseguir los mejores juegos de consolas a los mejores precios. No te quedes con las ganas."
+    />
+
+    <!--------Palabras Clave----------->
+    <meta
+      name="keywords"
+      content="gamestore, juegos digitales, juegos digitales ps3, juegos digitales ps4, tienda virtual, tienda de juegos, juegos digitales ps5, juegos ps3, juegos ps4, juegos ps5, tarjetas de regalo, Gift Card, cartera virtual"
+    />
+
+    <!--------Open Graph: Tipo----------->
+    <meta property="og:type" content="tienda" />
+
+    <!--------Open Graph: titulo----------->
+    <meta property="og:title" content="GAMESTORE" />
+
+    <!--------Open Graph: Logo del sitio----------->
+    <meta property="og:Image" content="./imagenes/logo.png" />
+
+    <!--------Open Graph: Nombre del Sitio----------->
+    <meta property="og:site_name" content="GAMESTORE" />
+
+    <!--------Open Graph: Descripcion----------->
+    <meta
+      property="og:description"
+      content="La mayor variedad de juegosdigitales para PS3, PS4 y PS5, al mejor precio y desde la comodidad de tu hogar."
+    />
+
+    <!--------Open Graph: Autor----------->
+    <meta property="og:autor" content="Joaquin Aquino" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/6762089592.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>GAMESTORE</title>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark"
+      style="background-color: #313940"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="../index.html">
+          <img
+            width="100"
+            height="100"
+            src="../imagenes/logo.png"
+            alt="logo del sitio"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarTogglerDemo02"
+        >
+          <ul class="navbar-nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link active" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./tienda.html"> Tienda </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./preguntas frecuentes.html"
+                >Preguntas Frecuentes</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./ayuda.html">Ayuda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./acceder.html">Acceder</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <div class="container">
+        <div class="row">
+          <form class="form-registrer">
+            <h2>Consultanos</h2>
+            <div class="form-group">
+              <label for="inputEmail3">Email</label>
+              <div>
+                <input type="email" class="form-control" id="inputEmail3" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputPassword3">Contraseña</label>
+              <div>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="inputPassword3"
+                />
+              </div>
+            </div>
+            <div>¿Tiene problemas con algunos de nuestros productos?</div>
+            <div class="mb-3">
+              <select class="custom-select" required>
+                <option value="">Elija...</option>
+                <option value="1">Si</option>
+                <option value="2">No</option>
+              </select>
+
+              <div>¿Tuvo algunos de los siguientes problemas?</div>
+            </div>
+            <div class="custom-control custom-radio">
+              <input
+                type="radio"
+                class="custom-control-input"
+                id="customControlValidation2"
+                name="radio-stacked"
+                required
+              />
+              <label class="custom-control-label" for="customControlValidation2"
+                >¿Se bloqueo el juego?</label
+              >
+            </div>
+            <div class="custom-control custom-radio mb-3">
+              <input
+                type="radio"
+                class="custom-control-input"
+                id="customControlValidation3"
+                name="radio-stacked"
+                required
+              />
+              <label class="custom-control-label" for="customControlValidation3"
+                >¿Tuvo problemas con el metodo de pago?</label
+              >
+            </div>
+            <div class="custom-control custom-radio mb-3">
+              <input
+                type="radio"
+                class="custom-control-input"
+                id="customControlValidation4"
+                name="radio-stacked"
+                required
+              />
+              <label class="custom-control-label" for="customControlValidation4"
+                >¿Aun no recibio el producto?</label
+              >
+            </div>
+            <div class="custom-control custom-radio mb-3">
+              <input
+                type="radio"
+                class="custom-control-input"
+                id="customControlValidation5"
+                name="radio-stacked"
+                required
+              />
+              <label class="custom-control-label" for="customControlValidation5"
+                >Ninguno</label
+              >
+            </div>
+
+            <div class="mb-3">
+              <label for="validationTextarea">¿Con que necesita ayuda?</label>
+              <textarea
+                class="form-control is-invalid"
+                id="validationTextarea"
+                placeholder="Escriba cual es su problema..."
+                required
+              ></textarea>
+              <div class="invalid-feedback">
+                Escriba su mensaje en el cuadro de texto.
+              </div>
+            </div>
+            <button type="submit" class="btn btn-danger btn-lg">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer--sm">
+        <div class="container">
+          <div class="row py-4 text-center text-white">
+            <div class="col-lg-5 col-md-6 md-4 mb-md-0">
+              <h2 class="display-6">GAMESTORE</h2>
+            </div>
+            <div class="col-lg-7 col-md-6">
+              <p>Seguinos:</p>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-facebook-square"></i></a>
+              <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

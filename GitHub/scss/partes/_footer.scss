@@ -1,0 +1,17 @@
+.footer {
+  padding-top: 1rem;
+  background-color: $color-primario;
+  &--sm {
+    color: white;
+    font-size: $size-primario - 1;
+
+    a {
+      color: white;
+
+      i {
+        font-size: $size-primario - 1;
+        margin-left: 1rem;
+      }
+    }
+  }
+}

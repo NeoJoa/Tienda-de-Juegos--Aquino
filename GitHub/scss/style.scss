@@ -1,0 +1,8 @@
+$color-primario: #313940;
+$color-secundario: #730707;
+$size-primario: 2.5rem;
+@import "custom";
+@import "general";
+@import "./partes/home";
+@import "./partes/form";
+@import "./partes/footer";
